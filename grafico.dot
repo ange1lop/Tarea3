@@ -1,0 +1,21 @@
+digraph G {
+  concentrate=True;
+  rankdir=TB;
+  node [shape=record];
+  1 [label="Marvin Martinez|{Marvin25ronal|Jugar apex}"];
+  2 [label="Yaiza Pineada|{Bambi|Patinar}"];
+  3 [label="Jonathan Lopez|{Pancho|Comer}"];
+  4 [label="usuario1 bla|{bla|Jugar apex}"];
+  5 [label="usuario2 bla|{bla|Jugar apex}"];
+  6 [label="usuario3 sale edd|{vamos con todo|100 en la fase 1}"];
+  1 -> 2;
+  2 -> 1;
+  2 -> 3;
+  3 -> 2;
+  4 -> 3;
+  3 -> 4;
+  4 -> 5;
+  5 -> 4;
+  5 -> 6;
+  6 -> 5;
+}
